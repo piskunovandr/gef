@@ -1,0 +1,156 @@
+.roboto_reg()
+{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+}
+
+.roboto_bold()
+{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+
+.montserrat()
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.popup__message
+{
+	text-transform: uppercase;
+	font-size: 10px;
+	color: red;
+	.montserrat();
+	display: none;
+}
+
+.popup__close
+{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	border: none;
+	background-color: transparent;
+	font-size: 40px;
+	&:hover
+	{
+		cursor: pointer;
+		color: red;
+	}
+	&:focus
+	{
+		color: darken(red, 20%);
+	}
+}
+
+.popup
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.popup__content
+{
+	border-radius: 20px;
+	padding: 40px 30px;
+	position: fixed;
+	top: 10%;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #fff;
+	h4
+	{
+		margin: 30px 0 0 0;
+		text-transform: uppercase;
+		.montserrat();
+		font-size: 18px;
+		color: #000;
+	}
+	p
+	{
+		display: inline-block;
+		border-radius: 20px;
+		margin: 30px 0;
+		text-transform: uppercase;
+		font-size: 17px;
+		padding: 10px 20px;
+		.roboto_reg();
+		box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.3);
+	}
+}
+
+.popup__form
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	input
+	{
+		width: 85%;
+		text-align: center;
+		padding: 5px 10px;
+		margin: 7px 0;
+		border: 1px solid #A0A0A0;
+		border-radius: 10px;
+		height: 35px;
+		.roboto_reg();
+		font-size: 14px;
+		text-transform: uppercase;
+		&:focus
+		{
+			outline: none;
+			&::placeholder
+			{
+				color: transparent;
+			}
+		}
+	}
+
+	button
+	{
+		width: 85%;
+		margin-top: 20px;
+		padding: 15px;
+		background-color: #005380;
+		color: #ffffff;
+		.roboto_reg();
+		text-transform: uppercase;
+		font-size: 16px;
+		border-radius: 10px;
+		border-style: none;
+		transition: all .2s;
+		&:hover
+		{
+			cursor: pointer;
+			background-color: lighten(#005380, 10%);
+		}
+		&:focus
+		{
+			background-color: darken(#4C8387, 10%);
+		}
+		&:active
+		{
+			background-color: darken(red, 20%);
+		}
+	}
+}
+
+@media (max-width: 660px) {
+	.popup__content
+	{
+		width: 80%;
+	}
+	.popup__content
+	{
+		top: 5%;
+	}
+}

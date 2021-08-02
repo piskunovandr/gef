@@ -1,0 +1,18 @@
+<div class="popup">
+	<div class="popup__dialog">
+		<div class="popup__content">
+			<button class="popup__close">&times;</button>
+			<span class="popup__message">ваше сообщение успешно отправлено</span>
+			<h4 class="popup__header">заполните заявку на расчет<br>стоимости работ</h4>
+			<p>дарим скидку 10%<br>при вызове с сайта</p>
+			<div class="popup__main-form">
+				<form id="form" action="mailer/smart.php" method="POST" class="popup__form">
+					<input name="client-name" class="popup__form-input" type="text" placeholder="*ваше имя">
+					<input name="client-email" class="popup__form-input" type="text" placeholder="*эл. почта">
+					<input id="phone-number" name="client-phone" class="popup__form-input" name="phone" type="text" placeholder="*телефон">
+					<button type="submit" class="popup__form-btn">вызвать специалиста</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

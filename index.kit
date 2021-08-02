@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+	<title>ГЕФЕСТ ВСК - Высотно-строительная компания Санкт-Петербург</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<!-- В header.less настройки для container брейкпоинтов -->
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/main__block.css">
+	<link rel="stylesheet" href="css/builder.css">
+	<link rel="stylesheet" href="css/services.css">
+	<link rel="stylesheet" href="css/advantages.css">
+	<link rel="stylesheet" href="css/clients.css">
+	<link rel="stylesheet" href="css/steps.css">
+	<link rel="stylesheet" href="css/feedback.css">
+	<link rel="stylesheet" href="css/templates.css">
+	<link rel="stylesheet" href="css/applicationForm.css">
+	<link rel="stylesheet" href="css/company.css">
+	<!-- В footer.less настройка для body, .wrap, .wrapper и html-->
+	<link rel="stylesheet" href="css/footer.css"> 
+	<link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+	<div class="wrapper">
+			<!-- @import "header.html" -->
+
+			<div class="wrap">
+					<!-- @import "popup.html" -->
+					<!-- Верхний main блок -->
+					<main class="main">
+						<div class="container">
+							<div class="main__content">
+
+								<div class="main__top">
+									<div class="main__top-title">промышленный альпинизм</div>
+									<div class="main__top-subtitle">кровельные работы<br>ремонт отмостки</div>
+								</div>
+
+								<div class="main__bottom">
+
+									<div class="main__bottom-items">
+										<div class="main__item">
+											<img src="img/main1.svg" alt="" class="item__img">
+											<p class="item__text"> Бесплатный выезд специалиста для первичного осмотра строения</p>
+										</div>
+										<div class="main__item">
+											<img src="img/main2.svg" alt="" class="item__img">
+											<p class="item__text">Специалисты с опытом работы на рынке не менее 3-х лет</p>
+										</div>
+										<div class="main__item">
+											<img src="img/main3.svg" alt="" class="item__img">
+											<p class="item__text">Бесплатное составление сметы работ</p>
+										</div>
+										<div class="main__item">
+											<img src="img/main4.svg" alt="" class="item__img">
+											<p class="item__text">Работаем для вас без праздников и выходных</p>
+										</div>
+										<div class="main__item">
+											<img src="img/main5.svg" alt="" class="item__img">
+											<p class="item__text">Гарантия в течение 5 лет с момента оказания услуги</p>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div> 
+					</main>
+
+					<!-- Блок с формой и строителем -->
+					<div class="builder">
+						<div class="container">
+							<div class="builder__content">
+								
+				                <div class="builder__leftSpace">
+				                	<div class="builder__text">
+				                		<div class="builder__text-title">Вызовите<br>специалиста<br>бесплатно</div>
+				                		<div class="builder__text-subtitle">мы приедем в любое<br>удобное для вас время</div>
+				                	</div>
+				                </div>
+				                <div class="builder__rightSpace">
+				                	<form id="form" action="mailer/smart.php" method="POST" class="builder__form">
+
+				                		<div class="builder__form-block">
+
+				                			<p class="builder__form-message" >ваше сообщение отправлено</p>
+
+				                			<div class="form__fields">
+
+				                				<div class="form__field">
+				                					<input name="client-name" type="text" placeholder="*ваше имя (обязательно)">
+				                				</div>
+
+				                				<div class="form__field">
+				                					<input name="client-email" type="text" placeholder="*эл. почта">
+				                				</div>
+
+				                				<div class="form__field">
+				                					<input id="phone-number" name="client-phone" type="text" placeholder="*телефон (обязательно)">
+				                				</div>
+
+				                				<div class="form__button">
+				                					<button type="submit" class="form__btn">вызвать специалиста</button>
+				                				</div>
+
+				                			</div>
+				                		</div>
+
+				                		<div class="form__text">
+				                			<p>быстрый выезд<br>санкт-петербург и лен. область</p>
+				                		</div>
+
+				                	</form>
+				                	<div class="builder__image">
+				                		<image class="builder__img" src="img/builder.png"></image>
+				                	</div>
+				                </div>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- Блок "Какие услуги вы можете заказать" -->
+					<div class="services">
+						<div class="container">
+				            <div class="services__block">
+				            	<h2 class="services__title">какие услуги<br>вы можете заказать:</h2>
+				            	
+				            	<div class="services__content">
+
+				            		<div class="services__item">
+				            			<div class="services__item-img">
+				            				<img src="img/services1.png" alt="">
+				            			</div>
+				            			<div class="services__item-content">
+				            				<h3 class="services__item-title">вызов<br>альпиниста</h3>
+				            				<div class="services__item-price">от <span>8000</span> pуб.</div>
+				            				<button class="services__item-btn btn__action">заказать услугу</button>
+				            			</div>
+				            		</div>
+
+				            		<div class="services__item">
+				            			<div class="services__item-img">
+				            				<img src="img/services2.png" alt="">
+				            			</div>
+				            			<div class="services__item-content">
+				            				<h3 class="services__item-title">ремонт и утепление<br>межпанельных швов</h3>
+				            				<div class="services__item-price">от <span>300</span> pуб/кв. метр</div>
+				            				<button class="services__item-btn btn__action">заказать услугу</button>
+				            			</div>
+				            		</div>
+
+				            		<div class="services__item">
+				            			<div class="services__item-img">
+				            				<img src="img/services3.png" alt="">
+				            			</div>
+				            			<div class="services__item-content">
+				            				<h3 class="services__item-title">кровельные<br>работы</h3>
+				            				<div class="services__item-price">от <span>700</span> pуб/кв. метр</div>
+				            				<button class="services__item-btn btn__action">заказать услугу</button>
+				            			</div>
+				            		</div>
+
+				            		<div class="services__item">
+				            			<div class="services__item-img">
+				            				<img src="img/services4.png" alt="">
+				            			</div>
+				            			<div class="services__item-content">
+				            				<h3 class="services__item-title">ремонт<br>отмостки</h3>
+				            				<div class="services__item-price">от <span>1500</span> pуб/кв. метр</div>
+				            				<button class="services__item-btn btn__action">заказать услугу</button>
+				            			</div>
+				            		</div>
+
+				            	</div>
+				            </div>
+						</div>
+					</div>
+
+					<!-- Блок "Почему стоит выбрать нас? -> ЗАГОЛОВОК" -->
+					<div class="advantages__title">
+						<h2>Почему стоит выбрать нас?</h2>
+					</div>
+
+					<!-- Блок "Почему стоит выбрать нас?" -->
+					<div class="advantages">
+						<div class="container">
+							<div class="advantages__block">
+
+								<div class="advantages__leftSpace">
+									<div class="advantages__leftSpace-years">
+										<span>10+</span>
+									</div>
+									<p class="advantages__leftSpace-text">лет на рынке</p>
+								</div>
+
+								<div class="advantages__rightSpace">
+									
+									<div class="advantages__item">
+										
+										<div class="advantages__item-title">
+											<h4>широкий спектр услуг</h4>
+										</div>
+
+										<p class="advantages__item-text">Мы предоставляем различные услуги высотно-строительной направленности и используем современные технологии и передовые методы</p>
+
+									</div>
+
+									<div class="advantages__item">
+										
+										<div class="advantages__item-title">
+											<h4>доверие</h4>
+										</div>
+
+										<p class="advantages__item-text">мы консультируем заказчиков по всем возникающим вопросам</p>
+										<p class="advantages__item-text">наша компания предоставляет гарантию в течение 5 лет с момента оказания услуги</p>
+
+
+									</div>
+
+									<div class="advantages__item">
+										
+										<div class="advantages__item-title">
+											<h4>удобный формат оплаты</h4>
+										</div>
+
+										<p class="advantages__item-text">вы можете оплатить услуги сразу или в рассрочку до 24 месяцев без процентов и переплат равными платежами: предоплата по договору составляет всего 30%</p>
+										<p class="advantages__item-text">услуги можно оплатить как с текущего счёта, так и со спецсчёта</p>
+
+									</div>
+
+									<div class="advantages__item">
+										
+										<div class="advantages__item-title">
+											<h4>строительные нормы и правила</h4>
+										</div>
+
+										<p class="advantages__item-text">все работы выполняются в строгом соответствии со Снип (строительные нормы и правила), действующими стандартами и нормативными требованиями</p>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Блок "С нами работают" -->
+					<div class="clients">
+						<div class="container">
+							<h2 class="clients__title">с нами работают:</h2>
+							<div class="clients__block">
+								<div class="client__item"><img src="img/client1.png" alt=""></div>
+								<div class="client__item"><img src="img/client2.png" alt=""></div>
+								<div class="client__item"><img src="img/client3.png" alt=""></div>
+								<div class="client__item"><img src="img/client4.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Блок "Всё просто!" -->
+					<div class="steps">
+						<div class="container">
+							<div class="steps__block">
+
+								<div><h2 class="steps__title">всё просто!</h2></div>
+
+								<div class="steps__items">
+									<div class="step__item step__item-1">
+										<img src="img/step1.svg" alt="" class="step__img">
+										<h3 class="step__item-title step__item-title-1">шаг 1</h3>
+										<p class="step__item-subtitle step__item-subtitle-1">Свяжитесь с нами. Специалист выезжает на место для оценки и обсуждения вариантов</p>
+									</div>
+									<div class="step__item step__item-2">
+										<img src="img/step2.svg" alt="" class="step__img">
+										<h3 class="step__item-title step__item-title-2">шаг 2</h3>
+										<p class="step__item-subtitle">Заключаем договор и приступаем к работе</p>
+									</div>
+									<div class="step__item step__item-3">
+										<img src="img/step3.svg" alt="" class="step__img">
+										<h3 class="step__item-title step__item-title-3">шаг 3</h3>
+										<p class="step__item-subtitle">сдача работы и оплата</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- Блок с отзывами -->
+					<div class="feedback">
+						<div class="container">
+							<div class="feedback__block">
+								<div class="feedback__slides">
+
+									<div class="feedback__item">
+
+										<div class="feedback__item-wrap">
+											<div class="feedback__title">отзыв клиента</div>
+											<div class="feedback__line"></div>
+											<div class="feedback__content">
+												<img src="img/feedback1.png" alt="" class="feedback__img">
+												<div class="feedback__content-rightSpace">
+													<div class="feedback__name">
+														<span>татьяна васильевна</span>
+													</div>
+													<div class="feedback__text">кровля дома была в плохом состоянии. мы вызвали специалиста компании гефест вск, который приехал в этот же день. 
+													сделали ремонт кровли методом напыления жидкой резины и дали гарантию 5 лет. прошло уже 2 года, никаких проблем не возникало</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="feedback__item">
+
+										<div class="feedback__item-wrap">
+											<div class="feedback__title">отзыв клиента</div>
+											<div class="feedback__line"></div>
+											<div class="feedback__content">
+												<img src="img/feedback2.png" alt="" class="feedback__img">
+												<div class="feedback__content-rightSpace">
+													<div class="feedback__name">
+														<span>алефтина геннадьевна</span>
+													</div>
+													<div class="feedback__text">в подвал попала вода из-за плохого примыкания отмостки, с годами состояние ухудщалось. 
+													Вызвала специалиста компании ГЕФЕСТ на осмотр в феврале. Проговорили все условия сотрудничества и попросила рассрочку на 11 месяцев. 
+													В июне полностью заменили отмостку. Сотрудничаем дальше</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="feedback__item">
+
+										<div class="feedback__item-wrap">
+											<div class="feedback__title">отзыв клиента</div>
+											<div class="feedback__line"></div>
+											<div class="feedback__content">
+												<img src="img/feedback3.png" alt="" class="feedback__img">
+												<div class="feedback__content-rightSpace">
+													<div class="feedback__name">
+														<span>надежда викторовна</span>
+													</div>
+													<div class="feedback__text">пришлось заказать услугу по герметизации швов в панельке. Приехали, договорились о цене и пристипили к работам. 
+													Выполнили быстро и дали гарантию 5 лет по договору</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Блок с примерами работ -->
+					<div class="templates">
+						<div class="container">
+							<div class="templates__block">
+								<div class="templates__line"></div>
+								<h2 class="templates__title">выполненные работы:</h2>
+								<div class="templates__items">
+
+									<div class="template__item">
+										<img src="img/template1.png" alt="" class="template__img">
+										<span class="template__title">ремонт кровли</span>
+										<span class="template__subtitle">г. выборг</span>
+									</div>
+
+
+									<div class="template__item">
+										<img src="img/template2.png" alt="" class="template__img">
+										<span class="template__title">частное предприятие</span>
+										<span class="template__subtitle">г. усть-луга</span>
+									</div>
+
+
+									<div class="template__item">
+										<img src="img/template3.png" alt="" class="template__img">
+										<span class="template__title">жилой дом</span>
+										<span class="template__subtitle">ленинский проспект</span>
+									</div>
+
+
+									<div class="template__item">
+										<img src="img/template4.png" alt="" class="template__img">
+										<span class="template__title">ремонт межпанельных<br>швов</span>
+										<span class="template__subtitle">проспект авиаконструкторов</span>
+									</div>
+
+
+									<div class="template__item">
+										<img src="img/template5.png" alt="" class="template__img">
+										<span class="template__title">мойка окон</span>
+										<span class="template__subtitle">ул. марата</span>
+									</div>
+
+
+									<div class="template__item">
+										<img src="img/template6.png" alt="" class="template__img">
+										<span class="template__title">герметизация швов</span>
+										<span class="template__subtitle">ул. софийская</span>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Блок с формой внизу страницы -->
+					<div class="application__form">
+						<div class="container">
+							<div class="application__form-block">
+								<form id="form" action="mailer/smart.php" method="POST" class="app__form">
+
+									<div class="app__form-content">
+										<h3 class="app__form-title">заявка на расчет стоимости работ</h3>
+										<span class="app__form-sale">дарим скидку 10%<br>при вызове с сайта</span>
+										<div class="app__form-fields">
+
+											<div class="form__field app__form-input">
+												<input name="client-name" type="text" placeholder="*ваше имя">
+											</div>
+
+											<div class="form__field app__form-input">
+												<input name="client-email" type="text" placeholder="*эл. почта">
+											</div>
+
+											<div class="form__field app__form-input">
+												<input id="phone-number" name="client-phone" type="text" placeholder="*телефон">
+											</div>
+
+											<div class="form__button app__form-btn">
+												<button type="submit" class="form__btn">вызвать специалиста</button>
+											</div>
+
+										</div>
+
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<!-- Блок "О компании" -->
+					<div class="company">
+						<div class="container">
+							<div class="company__block">
+								<div class="company__title">о компании:</div>
+								<div class="company__content">
+
+									<div class="company__leftSpace">
+										<p>Реализуя свои услуги, мы создаем пространство, которое способно менять жизнь людей к лучшему. Коллектив профессионалов, богатый опыт, применение современной техники и передовых технологий гарантируют качество и надежность</p>
+										<p>Работаем по всей РОССИИ, как с частными так и с корпоративными заказами.<br>Гарантия 10 лет.<br>Рассрочка.</p>
+										<img src="img/logo.png" alt="">
+									</div>
+
+									<div class="company__rightSpace">
+
+										<div class="company__item">
+											<span>>10</span>
+											<p class="company__item-secondLine">лет</p>
+											<p>успешной командной работы</p>
+										</div>
+
+										<div class="company__item">
+											<span>3</span>
+											<p class="company__item-secondLine">года</p>
+											<p>минимальный опыт работы сотрудников</p>
+										</div>
+
+										<div class="company__item">
+											<span>>200</span>
+											<p class="company__item-secondLine">клиентов</p>
+											<p>которые получили качественный результат во время совместной работы</p>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+
+			<!-- @import "footer.html" -->
+
+	</div>	
+</body>
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src="https://cdn.jsdelivr.net/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>

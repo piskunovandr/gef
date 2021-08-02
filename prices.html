@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/popup.css">
+	<link rel="stylesheet" href="css/services.css">
+	<link rel="stylesheet" href="css/prices.css">
+	<title>Услуги - ГЕФЕСТ ВСК</title>
+</head>
+<body>
+	<div class="wrapper">
+<header class="header">
+	<div class="container">
+		<div class="header__content">
+
+			<div class="logo">
+				<a class="logo__img" href="index.html"><img src="img/logo.png" alt=""></a>
+				<a class="phone__link" href="tel:+79681930079">+7 (968) 193-00-79</a>
+			</div>
+            
+            <div class="header__info">
+            	<div class="address">Санкт-Петербург, Набережная обводного канала, 24а<br>Ежедневно с 10:00 до 20:00</div>
+
+                  <div class="burger">
+                        <div class="header__burger">
+                              <span></span>
+                        </div>
+                  </div>
+                  
+            	<ul class="header__menu">
+            		<li><a href="index.html" class="menu__item">Главная</a></li>
+            		<li><a href="uslugi-page.html" class="menu__item">Услуги</a></li>
+            		<li><a href="prices.html" class="menu__item">Стоимость</a></li>
+            		<li><a href="contacts.html" class="menu__item">Контакты</a></li>
+            		<li><button class="popup__btn btn__action">Обратный звонок</button></li>
+            	</ul>
+            </div>
+
+		</div>	
+	</div>
+</header>
+		<div class="wrap">
+<div class="popup">
+	<div class="popup__dialog">
+		<div class="popup__content">
+			<button class="popup__close">&times;</button>
+			<span class="popup__message">ваше сообщение успешно отправлено</span>
+			<h4 class="popup__header">заполните заявку на расчет<br>стоимости работ</h4>
+			<p>дарим скидку 10%<br>при вызове с сайта</p>
+			<div class="popup__main-form">
+				<form id="form" action="mailer/smart.php" method="POST" class="popup__form">
+					<input name="client-name" class="popup__form-input" type="text" placeholder="*ваше имя">
+					<input name="client-email" class="popup__form-input" type="text" placeholder="*эл. почта">
+					<input id="phone-number" name="client-phone" class="popup__form-input" name="phone" type="text" placeholder="*телефон">
+					<button type="submit" class="popup__form-btn">вызвать специалиста</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>					<div class="prices">
+						<div class="container">
+				            <div class="services__block">
+				            	<h2 class="services__title">стоимость<br>наших услуг:</h2>
+				            	
+				            	<div class="services__content">
+
+				            		<div class="services__item">
+				            			<div class="prices__item-img">
+				            				<img src="img/prices1.png" alt="">
+				            			</div>
+				            			<div class="services__item-content">
+				            				<h3 class="services__item-title">услуги промышленных<br>альпинистов</h3>
+				            				<div class="services__item-price">от <span>8000</span> pуб.</div>
+				            				<button class="services__item-btn btn__action">заказать услугу</button>
+				            			</div>
+				            		</div>
+
+				            		<div class="services__item">
+				            			<div class="prices__item-img">
+				            				<img src="img/prices2.png" alt="">
+				            			</div>
+				            			<div class="services__item-content">
+				            				<h3 class="services__item-title">ремонт и<br>герметизация швов</h3>
+				            				<div class="services__item-price">от <span>300</span> pуб.</div>
+				            				<button class="services__item-btn btn__action">заказать услугу</button>
+				            			</div>
+				            		</div>
+
+				            		<div class="services__item">
+				            			<div class="prices__item-img">
+				            				<img src="img/prices3.png" alt="">
+				            			</div>
+				            			<div class="services__item-content">
+				            				<h3 class="services__item-title">ремонт<br>кровли</h3>
+				            				<div class="services__item-price">от <span>700</span> pуб.</div>
+				            				<button class="services__item-btn btn__action">заказать услугу</button>
+				            			</div>
+				            		</div>
+
+				            		<div class="services__item">
+				            			<div class="prices__item-img">
+				            				<img src="img/prices4.png" alt="">
+				            			</div>
+				            			<div class="services__item-content">
+				            				<h3 class="services__item-title">покраска<br>фасада здания</h3>
+				            				<div class="services__item-price">от <span>1500</span> pуб.</div>
+				            				<button class="services__item-btn btn__action">заказать услугу</button>
+				            			</div>
+				            		</div>
+
+				            		<div class="services__item">
+				            			<div class="prices__item-img">
+				            				<img src="img/prices5.png" alt="">
+				            			</div>
+				            			<div class="services__item-content">
+				            				<h3 class="services__item-title">ремонт<br>подъездов</h3>
+				            				<div class="services__item-price">от <span>100</span> pуб.</div>
+				            				<button class="services__item-btn btn__action">заказать услугу</button>
+				            			</div>
+				            		</div>
+
+				            		<div class="services__item">
+				            			<div class="prices__item-img">
+				            				<img src="img/prices6.png" alt="">
+				            			</div>
+				            			<div class="services__item-content">
+				            				<h3 class="services__item-title">утепление<br>ппу</h3>
+				            				<div class="services__item-price">от <span>700</span> pуб.</div>
+				            				<button class="services__item-btn btn__action">заказать услугу</button>
+				            			</div>
+				            		</div>
+
+				            	</div>
+				            </div>
+						</div>
+					</div>
+		</div>
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer__line"></div>
+		<div class="footer__content">
+
+			<div class="footer__content-top">
+				<span>телефон<br>+7 (968) 193-00-79</span>
+				<span>адрес:<br>Санкт-Петербург, Набережная обводного канала, 24а</span>
+				<div class="footer__button">
+					<a href="#"><button class="footer__btn btn__action">обратный звонок</button></a>
+				</div>
+			</div>
+
+			<div class="footer__content-bottom">
+				<div class="footer__vk">
+					<a target="_blank" href="https://vk.com/gefestvsk"><img src="img/vk.svg" alt=""></a>
+					<a target="_blank" href="https://vk.com/gefestvsk" class="vk">мы в vk</a>
+				</div>
+				<span class="footer__text-bottom">вск гефест 2021</span>
+				<span class="footer__text-bottom footer__text-bottom-1">© все права защищены</span>
+			</div>
+
+		</div>
+	</div>
+</footer>
+	</div>	
+</body>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src="https://cdn.jsdelivr.net/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script src="js/script.js"></script>
+</html>
