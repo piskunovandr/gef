@@ -299,3 +299,18 @@
     margin-bottom: 0;
   }
 }
+@media (max-width: 360px) {
+  .advantages {
+    height: 1350px;
+  }
+  .advantages__title h2:before,
+  .advantages__title h2:after {
+    display: none;
+  }
+  .advantages__item {
+    height: 260px;
+  }
+  .advantages__item:first-child {
+    margin-bottom: -20px;
+  }
+}

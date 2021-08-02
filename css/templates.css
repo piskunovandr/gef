@@ -147,3 +147,9 @@
     height: 220px;
   }
 }
+@media (max-width: 360px) {
+  .templates__title {
+    font-size: 25px;
+    margin-top: 0;
+  }
+}

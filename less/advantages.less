@@ -322,3 +322,28 @@
 		}
 	}
 }
+
+@media (max-width: 360px) {
+	.advantages
+	{
+		height: 1350px;
+	}
+	.advantages__title
+	{
+		h2
+		{
+			&:before, &:after
+			{
+				display: none;
+			}
+		}
+	}
+	.advantages__item
+	{
+		height: 260px;
+		&:first-child
+		{
+			margin-bottom: -20px;
+		}
+	}
+}

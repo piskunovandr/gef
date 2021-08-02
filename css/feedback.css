@@ -164,3 +164,8 @@
     font-size: 12px;
   }
 }
+@media (max-width: 360px) {
+  .feedback__name span {
+    font-size: 10px;
+  }
+}
