@@ -71,3 +71,48 @@
 {
 	box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.3);
 }
+
+.map__block-576px
+{
+	display: none;
+}
+
+@media (max-width: 992px) {
+	.contacts
+	{
+		height: 700px;
+	}
+	.contacts__block
+	{
+		flex-direction: column;
+	}
+	.contacts__content
+	{
+		text-align: center;
+	}
+}
+
+@media (max-width: 576px) {
+	.contacts__block
+	{
+		margin-top: 30px;
+	}
+	.contacts__leftSpace
+	{
+		width: 100%;
+	}
+	.contacts__rightSpace
+	{
+		width: 100%;
+		align-items: flex-start;
+	}
+	.map__block
+	{
+		display: none;
+	}
+	.map__block-576px
+	{
+		width: 100%;
+		display: flex;
+	}
+}
