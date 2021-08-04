@@ -182,7 +182,7 @@
     text-align: center;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 380px) {
   .company {
     height: 1050px;
   }
@@ -190,9 +190,19 @@
     font-size: 35px;
     margin-bottom: 10px;
   }
+  .company__leftSpace {
+    display: block;
+  }
   .company__leftSpace p {
     font-size: 15px;
     text-align: center;
     padding: 0 15px;
+  }
+  .company__leftSpace img {
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+  }
+  .company__rightSpace {
+    display: block;
   }
 }
