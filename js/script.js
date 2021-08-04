@@ -14,7 +14,7 @@ $(document).ready(function() {
 	$('.popup__form').submit(function(event) {
 		event.preventDefault();
 		$.ajax({
-			url: '../mailer/smart.php',
+			url: 'mailer/smart.php',
 			type: 'POST',
 			data: $(this).serialize()
 		})

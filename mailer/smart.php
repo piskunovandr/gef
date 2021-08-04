@@ -20,7 +20,7 @@ $mail->Password = 'aa2440425aa';
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('gefest.vsk@bk.ru', 'Заявка на сайте ГЕФЕСТ ВСК');   // От кого письмо 
+$mail->setFrom('mueno2020@mail.ru', 'Заявка на сайте ГЕФЕСТ ВСК');   // От кого письмо 
 $mail->addAddress('piskunov2000andrey@gmail.com');     // Add a recipient
 //$mail->addAddress('info@gefestvsk.ru');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
