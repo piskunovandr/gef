@@ -13,13 +13,16 @@ $mail->CharSet = 'utf-8';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mail.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'gefest.vsk@bk.ru';                 // Наш логин
-$mail->Password = 'Stroika2233!';                           // Наш пароль от ящика
+$mail->Username = 'mueno2020@mail.ru';                 // Наш логин
+$mail->Password = 'aa2440425aa';   
+//$mail->Username = 'gefest.vsk@bk.ru';                 // Наш логин
+//$mail->Password = 'Stroika2233!';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
 $mail->setFrom('gefest.vsk@bk.ru', 'Заявка на сайте ГЕФЕСТ ВСК');   // От кого письмо 
-$mail->addAddress('info@gefestvsk.ru');     // Add a recipient
+$mail->addAddress('piskunov2000andrey@gmail.com');     // Add a recipient
+//$mail->addAddress('info@gefestvsk.ru');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
