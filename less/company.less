@@ -183,10 +183,13 @@
 	}
 	.company__content
 	{
+		display: block;
+		text-align: center;
 		flex-direction: column;
 	}
 	.company__leftSpace
 	{
+		display: block;
 		align-items: center;
 		width: 100%;
 		img
@@ -197,6 +200,8 @@
 	}
 	.company__rightSpace
 	{
+		display: block;
+		height: 500px;
 		width: 100%;
 	}
 	.company__item
@@ -226,11 +231,28 @@
 		}
 		img
 		{
-			transform: translateX(30%);
+			width: 100%;
+			margin: 0 auto;
+			width: 150px;
+			//transform: translateX(30%);
 		}
 	}
 	.company__rightSpace
 	{
 		display: block;
+	}
+}
+
+@media (max-width: 305px) {
+	.company
+	{
+		height: 1150px;
+	}
+}
+
+@media (max-width: 230px) {
+	.company
+	{
+		height: 1200px;
 	}
 }
